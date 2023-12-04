@@ -1,6 +1,8 @@
 # 변수 선언 후 정의 시 고려점 (넣은 값이 문자 or 숫자인지 확실해야 함)
 # 문자 출력
-helloworld = "Hello, world! Gyung Ha." #문자형 변수
+print("Hello, world! Gyung Ha.") #상수
+
+helloworld = "Hello, world! Gyung Ha." #문자형 변수(웬만하면 변수로 선언하기/변수는 더이상 밑에서 쓰지 않을 경우 재활용 가능)
 print(helloworld)
 
 # 숫자 합산 출력
