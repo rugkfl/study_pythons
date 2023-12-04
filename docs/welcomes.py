@@ -14,3 +14,4 @@ if 5 > 2: # 묶음 기호인 :과 tab은 하나의 쌍
     pass #pass는 Debugging에 유용
     print("Five is greater than two!")
 print("end") #안으로 밀어넣어서 print("end")치면 세트 해제
+
