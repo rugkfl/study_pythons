@@ -3,8 +3,8 @@
 # A. Windows B. macOS C. Linux D. Chrome OS E. 기타
 # 2. 주로 사용하는 프로그래밍 언어는 무엇인가요?
 # A. Python B. Java C. JavaScript D. C++ E. 기타
-# # 3. 개발자에게 인기 있는 프로그래밍 언어는 무엇인가요?
-# # A. Python B. Java C. JavaScript D. C++ E. 기타
+# 3. 개발자에게 인기 있는 프로그래밍 언어는 무엇인가요?
+# A. Python B. Java C. JavaScript D. C++ E. 기타
 
 
 
