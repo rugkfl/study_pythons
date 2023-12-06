@@ -8,4 +8,6 @@
 # 불기 연도를 서기 연도로 변환한 결과를 출력한다.
 
 num_year = int(input())
-print("1998")
+print("{}".format(num_year - 543))
+
+# 2541- 543
