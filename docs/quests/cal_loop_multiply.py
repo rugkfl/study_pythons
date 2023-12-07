@@ -20,7 +20,7 @@ while input_q_sign != 'q' :
         call_first = int(input("단 수 입력 : "))
         call_second = int(input("숫자 입력 : "))
         print("곱셈 결과 :{} * {} = {}".format(call_first, call_second, call_first*call_second))
-    except ValueError:
+    except ValueError:    # while문에서 error가 떴을 시 프로그램 종료
         print("프로그램 종료")  
         break
 
