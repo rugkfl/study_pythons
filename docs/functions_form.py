@@ -1,12 +1,13 @@
 # 기본 function 형식 - 기다림. 불릴 때 기능
-def functions() :  
-    pass
+def functions_name() :  
+    pass    # 내용 넣기
     return 0
 
 ## 그냥 연습
 def my_function():
   print("Hello from a function")
 
+#function 부르기
 my_function()
 pass
 
@@ -16,6 +17,7 @@ def print_questions_and_answer() :
     print(str_anyone)
     str_anyone ="A. Windows B. macOS C. Linux D. Chrome OS E. 기타"
     print(str_anyone)
-    return 0   
+    return 0   # return은 값만 나온다
 print_questions_and_answer()
 print_questions_and_answer()
+
