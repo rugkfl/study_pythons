@@ -23,11 +23,11 @@
 # str_anyone = "1. 컴퓨터 운영체제에 대한 선호도는 어떠신가요?"
 # print(str_anyone)
 # str_anyone ="A. Windows B. macOS C. Linux D. Chrome OS E. 기타"
-# print()
+# print(str_anyone)
 # str_anyone ="2. 주로 사용하는 프로그래밍 언어는 무엇인가요?"
-# print()
+# print(str_anyone)
 # str_anyone ="A. Python B. Java C. JavaScript D. C++ E. 기타"
-# print()
+# print(str_anyone)
 # print("----------------------------------------------------------------------")
 
 

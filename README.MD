@@ -11,6 +11,7 @@
 |출력|[py](./docs/codingtests/10926.py)|첫째 줄에 놀람??!을 출력|[백준 10926](https://www.acmicpc.net/problem/10926)|
 |출력|[py](./docs/codingtests/18108.py)|불기 연도를 서기 연도로 변환한 결과 출력|[백준 18108](https://www.acmicpc.net/problem/10108)|
 |출력|[py](./docs/codingtests/10430.py)|첫째 줄에 (A+B)%C, 둘째 줄에 ((A%C) + (B%C))%C, 셋째 줄에 (A×B)%C, 넷째 줄에 ((A%C) × (B%C))%C를 출력|[백준 10430](https://www.acmicpc.net/problem/10430)|
+|출력|[py](./docs/codingtests/2588.py)|첫째 줄부터 넷째 줄까지 차례대로 (3), (4), (5), (6)에 들어갈 값을 출력한다.|[백준 2588](https://www.acmicpc.net/problem/2588)|
 
 
 
