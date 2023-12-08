@@ -7,7 +7,7 @@
 # 곱셈 계산기
 def multiply(num_first, num_second) :  
     multiply_result = num_first * num_second
-    return multiply
+    return multiply_result
 
 input_q_sign =""
 
