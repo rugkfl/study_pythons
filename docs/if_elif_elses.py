@@ -48,5 +48,23 @@ else :   #나머지 : F
     pass
     print("{}은 80점 이하이므로 F학점".format(my_score))
     
-print("End Programm!")
 
+
+# 부등호 사용 시 결과는 True or False(boolean)
+# 논리 연산자(true of false 대한 결과값)
+first = 200
+second = 33
+third = 500
+# condition 사용 이전에 각각 결과 확인
+first > second
+# true
+(first > second) and (third > first)
+# true
+if (first > second) and (third > first) :
+    print("Both conditions are True")
+
+if not (first < second) :
+    print("not(first > second)")
+# False
+pass
+print("End Programm!")
