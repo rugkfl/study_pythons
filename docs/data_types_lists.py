@@ -24,7 +24,7 @@ list_fruit[3]
 # 'cherry'
 
 ## error 발생
-list_fruit[4]
+# list_fruit[4]
 # Traceback (most recent call last):
 #   File "<string>", line 1, in <module>
 # IndexError: list index out of range
@@ -40,5 +40,25 @@ list_fruit[4]
 # # A. Python B. Java C. JavaScript D. C++ E. 기타       index 5
 # 당신의 답변 : E
 
+# list 초기화 방식 
+list_fruits_primitive = ["melon","apple", "banana", "cherry"]
+tuple_fruits = ("melon","apple", "banana", "cherry")
+list_fruits_constructor = list(("melon","apple", "banana", "cherry"))
+
+# type(list_fruits_constructor)
+# <class 'list'>
+# type(list_fruits_primitive)
+# <class 'list'>
+
+#
+list_fruits_primitive.append('strawberry') # 추가하기
+list_fruits_constructor.append('watermelon')  # 추가하기
+
+# 삭제 대상이 해당 값이 있는 item
+list_fruits_primitive.remove('apple') 
+list_fruits_constructor.remove('melon')
+
+# 삭제 대상이 전체 item
+list_fruits_primitive.clear()  # => 초기화
 
 pass

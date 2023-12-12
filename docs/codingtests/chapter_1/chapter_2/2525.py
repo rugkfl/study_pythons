@@ -14,17 +14,34 @@
 # 첫째 줄에 종료되는 시각의 시와 분을 공백을 사이에 두고 출력한다. (단, 시는 0부터 23까지의 정수, 분은 0부터 59까지의 정수이다. 디지털 시계는 23시 59분에서 1분이 지나면 0시 0분이 된다.)
 
 # 만약에 현재 시와 분이 주어지고 요리하는데 필요한 시간이 주어지면 끝나는 시각을 반환한다.
-# B + C된 분이 59보다 커지면 0이 되고, 시는 +1이 됨
+
+# 나누기 활용 => 분/60 몫= 시간 나머지=분 
 # 
 
-A, B = map(int, input().split())    # 현재 시(0 ≤ A ≤ 23), 분(0 ≤ B ≤ 59)
-C = int(input())                    # 요리하는 데 필요한 시간(분 단위) / (0 ≤ C ≤ 1,000)
-if B + C > 59 :
-    if A > 23 :
-        A = 0
-        B -= 60 
+# A, B = map(int, input().split())    
+# C = int(input())                   
+# if B + C >= 60 :
+#     if A+((B+C)//60) >= 24:
+#         print(A+((B+C)//60)-24, (B+C)%60)
+#         pass
+#     else:    
+#         print(A+((B+C)//60), (B+C)%60)
+#         pass
+# else :
+#     print(A, B+C)
+#     pass
+
+A, B = map(int, input().split())
+C = int(input())
+if B + C >= 60 :
+    if A+((B+C)//60) >=24 :
+        print(A+((B+C)//60) -24,(B+C)%60)
+        pass
     else :
-        A += 1
-        B -= 60
-print(A, B+C)
+        print(A+((B+C)//60), (B+C)%60)
+        pass
+else :
+    print(A, B+C)
+    pass
+
 
