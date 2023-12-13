@@ -27,25 +27,35 @@ for j in range(3) :
 print(temp_list)
 '''
 
+
+mixed_questions = [
+    {
+        "question":"",
+        "answer": [],
+        "correct_index": 0,
+        "score": 0
+    }
+    ]
+
 def question_and_answer():
-    mixed_questions = []
+    input_list = []
     for j in range(3):
         question = input("question: ")
         answer = input("answer: ")
         correct_index = int(input("correct_index: "))
         score = int(input("score: "))
 
-        mixed_questions.append({
+        input_list.append({
             "question": question,
             "answer": answer,
             "correct_index": correct_index,
             "score": score
         })
 
-    return mixed_questions
+    return input_list
 
-temp_list = question_and_answer()
-print(temp_list)
+mixed_questions = question_and_answer()
+print(mixed_questions)
 
 
 
