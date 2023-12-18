@@ -7,7 +7,8 @@ finally :
     pass # try나 except이 끝난 후 무조건 실행 코드
 
 # pure python with 계산기
-num_first = '4'
+# num_first = '4' # 문자열 -> 오류 발생
+num_first = 4   # 숫자
 num_second = 5
 # 곱셈 연산
 
