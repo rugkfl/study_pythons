@@ -39,6 +39,11 @@
 당신 응답 합계 : 5점
 학점은 F 입니다.
 ```
+### summary
+<details>
+  <summary>이곳을 클릭하세요</summary>
+  <p>추가적인 정보가 여기에 표시됩니다.</p>
+</details>
 
 
 
