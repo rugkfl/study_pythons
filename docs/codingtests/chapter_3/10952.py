@@ -13,13 +13,25 @@
 # 출력
 # 각 테스트 케이스마다 A+B를 출력한다.
 
-while True :
-    A, B = map(int, input().split())
-    if A > 0 and B > 0 :
-        print(A+B)
-        continue
-    elif A == 0 and B == 0:
-        break
-    else :
-        break
+# while True :
+#     A, B = map(int, input().split())
+#     if A > 0 and B > 0 :
+#         print(A+B)
+#         continue
+#     elif A == 0 and B == 0:
+#         break
+#     else :
+#         break
+
+def loop_sum():
+    while True :
+        A, B = map(int, input().split())
+        if A > 0 and B > 0 :
+            print(A+B)
+            continue
+        elif A == 0 and B == 0:
+            break
+    return    
+loop_sum()
+
 
