@@ -23,10 +23,20 @@
 
 # 시간초과로 인해 input대신 import sys 후 sys.stdin.readline()을 사용
 
-import sys
-T = int(sys.stdin.readline())
+# import sys
+# T = int(sys.stdin.readline())
 
-for i in range(T):
-    A, B = map(int, sys.stdin.readline().split())
-    add = A + B
-    print(add)
+# for i in range(T):
+#     A, B = map(int, sys.stdin.readline().split())
+#     add = A + B
+#     print(add)
+
+import sys
+def result_sum() :
+    T = int(sys.stdin.readline())
+    for i in range(T):
+        A, B = map(int, sys.stdin.readline().split())
+        add = A + B
+        print(add)
+result_sum()
+

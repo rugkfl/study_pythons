@@ -11,10 +11,20 @@
 # 출력
 # 각 테스트 케이스마다 "Case #x: "를 출력한 다음, A+B를 출력한다. 테스트 케이스 번호는 1부터 시작한다.
 
-T = int(input())
-x = 0
-for i in range(T) :
-    A, B = map(int, input().split())
-    sum = A + B
-    x = x + 1
-    print("Case #{}: {}".format(x, sum))
+# T = int(input())
+# x = 0
+# for i in range(T) :
+#     A, B = map(int, input().split())
+#     sum = A + B
+#     x = x + 1
+#     print("Case #{}: {}".format(x, sum))
+
+def result_sum() :
+    T = int(input())
+    x = 0
+    for i in range(T) :
+        A, B = map(int, input().split())
+        sum = A + B
+        x += 1
+        print("Case #{}: {}".format(x, sum))
+result_sum()

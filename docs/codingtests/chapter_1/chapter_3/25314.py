@@ -30,10 +30,18 @@
 
 # // => 몫만 출력해줌
 
-N = int(input()) # N을 정수로 받음
+# N = int(input()) # N을 정수로 받음
 
-cal_num = N//4  # //은 값을 나눴을 때 몫만 출력해줌, 4의 배수여야 하므로 N을 4로 나눈 값의 몫만을 cal_num이라는 변수에 지정 
+# cal_num = N//4  # //은 값을 나눴을 때 몫만 출력해줌, 4의 배수여야 하므로 N을 4로 나눈 값의 몫만을 cal_num이라는 변수에 지정 
 
-for i in range(cal_num) : # cal_num의 수만큼 반복
-    print("long") # cal_num의 수만큼 long을 출력
-print("int") # for문이 완료되면 int를 출력
+# for i in range(cal_num) : # cal_num의 수만큼 반복
+#     print("long") # cal_num의 수만큼 long을 출력
+# print("int") # for문이 완료되면 int를 출력
+
+def four_divide() :
+    N = int(input())
+    cal_num = N//4
+    for i in range(cal_num) :
+        print("long", end=" ")
+    print("int")
+four_divide()

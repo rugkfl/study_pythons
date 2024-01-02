@@ -24,17 +24,31 @@
 # 출력
 # 구매한 물건의 가격과 개수로 계산한 총 금액이 영수증에 적힌 총 금액과 일치하면 Yes를 출력한다. 일치하지 않는다면 No를 출력한다.
 
-X = int(input())    # 영수증 총합계 금액
-N = int(input())    # 구매한 물건의 종류 수
-mutiply_list = []   # 각 물건의 금액과 구매 개수를 곱한 값의 list
-for i in range(N) : # 구매한 물건의 종류 수만큼의 반복
-    a, b = map(int, input().split()) # 각 물건의 가격과 개수를 한번에 받음
-    mutiply = a * b     # 물건의 가격 * 개수
-    mutiply_list.append(mutiply) # N의 길이만큼 가격과 개수를 곱한 값들을  list에 넣어줌
-stuff_sum = (sum(mutiply_list)) # list에 있는 값들을 전부 더해주고 변수선언
+# X = int(input())    # 영수증 총합계 금액
+# N = int(input())    # 구매한 물건의 종류 수
+# mutiply_list = []   # 각 물건의 금액과 구매 개수를 곱한 값의 list
+# for i in range(N) : # 구매한 물건의 종류 수만큼의 반복
+#     a, b = map(int, input().split()) # 각 물건의 가격과 개수를 한번에 받음
+#     mutiply = a * b     # 물건의 가격 * 개수
+#     mutiply_list.append(mutiply) # N의 길이만큼 가격과 개수를 곱한 값들을  list에 넣어줌
+# stuff_sum = (sum(mutiply_list)) # list에 있는 값들을 전부 더해주고 변수선언
 
-if stuff_sum == X : # 영수증 총합계 금액과 위에서 곱하고 더한 값을 비교
-    print("Yes")
-else :
-    print("No")
+# if stuff_sum == X : # 영수증 총합계 금액과 위에서 곱하고 더한 값을 비교
+#     print("Yes")
+# else :
+#     print("No")
 
+def receipt() :
+    X = int(input())
+    N = int(input())
+    mutiply_list = []
+    for i in range(N) :
+        a, b = map(int, input().split())
+        mutiply = a * b
+        mutiply_list.append(mutiply)
+        product_sum = sum(mutiply_list)
+    if product_sum == X :
+        print("Yes")
+    else :
+        print("No")
+receipt()

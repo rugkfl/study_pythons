@@ -13,9 +13,16 @@
 # for 변수 in 리스트 :
     # 반복할 코드
 
-N = int(input())
+# N = int(input())
 
-gugudan = [1, 2, 3, 4, 5, 6, 7, 8, 9]    # 구구단에서 곱하는 수를 나타내는 리스트
-for num_gugudan in gugudan :             # list gugudan에 있는 각 요소(1~9)를 num_gugudan으로 하나씩 가져옴
-    print("{} * {} = {}".format(N, num_gugudan, N*num_gugudan))
-   
+# gugudan = [1, 2, 3, 4, 5, 6, 7, 8, 9]    # 구구단에서 곱하는 수를 나타내는 리스트
+# for num_gugudan in gugudan :             # list gugudan에 있는 각 요소(1~9)를 num_gugudan으로 하나씩 가져옴
+#     print("{} * {} = {}".format(N, num_gugudan, N*num_gugudan))
+
+
+gugudan = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+def loop_gugudan(gugudan):
+    N = int(input())
+    for num_gugudan in gugudan :
+        print("{} * {} = {}".format(N, num_gugudan, N*num_gugudan))
+loop_gugudan(gugudan)
