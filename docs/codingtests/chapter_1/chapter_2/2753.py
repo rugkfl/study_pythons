@@ -17,8 +17,20 @@
 # and는 두 조건을 모두 만족 시 true
 # or은 한 조건이라도 만족 시 true
 
-num_year = int(input(""))
-if num_year %4 == 0 and num_year %100 != 0 or num_year %400 == 0  :
-    print("1")
-else :
-    print("0")
+# num_year = int(input(""))
+# if num_year %4 == 0 and num_year %100 != 0 or num_year %400 == 0  :
+#     print("1")
+# else :
+#     print("0")
+
+# 윤년 함수
+num_year = int(input())
+def leap_year(num_year) :
+    if num_year %4 == 0 and num_year %100 != 0 or num_year %400 == 0 :
+        print("1")
+    else :
+        print("0")
+
+# 함수 호출
+leap_year(num_year)
+    

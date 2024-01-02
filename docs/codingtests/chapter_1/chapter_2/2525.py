@@ -18,18 +18,6 @@
 # 나누기 활용 => 분/60 몫= 시간 나머지=분 
 # 
 
-# A, B = map(int, input().split())    
-# C = int(input())                   
-# if B + C >= 60 :
-#     if A+((B+C)//60) >= 24:
-#         print(A+((B+C)//60)-24, (B+C)%60)
-#         pass
-#     else:    
-#         print(A+((B+C)//60), (B+C)%60)
-#         pass
-# else :
-#     print(A, B+C)
-#     pass
 
 A, B = map(int, input().split())
 C = int(input())
@@ -43,5 +31,18 @@ if B + C >= 60 :
 else :
     print(A, B+C)
     pass
+
+
+def oven_clock():
+    A, B = map(int, input().split())
+    C = int(input())
+    if B + C >= 60 :
+        if A+((B+C)//60) >= 24 :
+            print(A+((B+C)//60) -24, (B+C)%60)
+        else :
+            print(A+(B+C)//60, (B+C)%60)
+    else :
+        print(A, (B+C))
+oven_clock()
 
 

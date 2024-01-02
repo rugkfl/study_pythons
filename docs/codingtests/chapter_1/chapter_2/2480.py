@@ -24,22 +24,42 @@
 
 
 
-A, B, C = map(int, input().split())
-if A == B :         # A와 B가 같은 경우
-    if A == C :     ## A와 C가 같은 경우
-        print(10000+(A*1000))
-    else :          ## A와 B 2개만 같은 경우
-        print(1000+(A*100))
-else :              # A와 B가 같지 않은 경우
-    if A == C :     ## A와 C 2개만 같은 경우
-        print(1000+(A*100))
-    elif B == C :   ## B와 C 2개만 같은 경우
-        print(1000+(B*100))
-    else :          ## 모두 같지 않은 경우
-        if A > B and A > C :    ### A가 B보다 크고, A가 C보다 클 때
-            print(A*100)
-        elif B > A and B > C :  ### B가 A보다 크고,  B가 C보다 클 때
-            print(B*100)
-        else :                  ### C가 A보다 크고, C가 B보다 클 때
-            print(C*100)
-    
+# A, B, C = map(int, input().split())
+# if A == B :         # A와 B가 같은 경우
+#     if A == C :     ## A와 C가 같은 경우
+#         print(10000+(A*1000))
+#     else :          ## A와 B 2개만 같은 경우
+#         print(1000+(A*100))
+# else :              # A와 B가 같지 않은 경우
+#     if A == C :     ## A와 C 2개만 같은 경우
+#         print(1000+(A*100))
+#     elif B == C :   ## B와 C 2개만 같은 경우
+#         print(1000+(B*100))
+#     else :          ## 모두 같지 않은 경우
+#         if A > B and A > C :    ### A가 B보다 크고, A가 C보다 클 때
+#             print(A*100)
+#         elif B > A and B > C :  ### B가 A보다 크고,  B가 C보다 클 때
+#             print(B*100)
+#         else :                  ### C가 A보다 크고, C가 B보다 클 때
+#             print(C*100)
+
+A, B, C = map(int, input().split())  
+def dice_game(A, B, C) :
+    if A == B :
+        if A == C :
+            print(10000+(A*1000))
+        else :
+            print(1000+(A*100))
+    else :
+        if A == C :
+            print(1000+(A*100))
+        elif B == C :
+            print(1000+(B*100))
+        else :
+            if A > B and A > C :
+                print(A*100)
+            elif B > A and B > C :
+                print(B*100)
+            else :
+                print(C*100)
+dice_game(A, B, C)
