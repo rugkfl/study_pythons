@@ -33,7 +33,7 @@
 
 
 
-
+# recommend method
 def basket():
     N, M = map(int, input().split())  # N이 바구니 개수/ M이 공을 넣는 기회 횟수
     basket_list = [] # 전체 바구니 리스트
