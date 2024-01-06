@@ -23,13 +23,17 @@ def basket_change():
     for x in range(N):
         x += 1
         basket_list.append(x)
-    print(basket_list)
-
     
     for y in range(M):
         i, j = map(int, input().split())
-        basket_list.reverse()
-        print(basket_list)
+        a = i -1  #범위지정
+        b = j -1  #범위지정
+        basket_list[a:b+1] = reversed(basket_list[a:b+1]) # b+1을 한 이유는 b범위까지 포함시키기 위해/basket_list의 a~b까지라는 의미
+    print(*basket_list) # *을 붙이면 대괄호 없애고 출력 가능
+    pass
     return
 
 basket_change()
+
+# list.reverse()는 원본 리스트를 자체를 역순으로 바뀜
+# reversed는 원본 리스트는 변경되지 않고 역순으로 된 리스트를 얻고자 할때 사용
