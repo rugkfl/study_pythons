@@ -24,11 +24,11 @@ def basket_game():
     for x in range(N) : # 바구니 생성을 위한 반복문
         x += 1
         basket_list.append(x)
-    print(basket_list)
-
-    for y in range(M):
+   
+    for z in range(M):
         i, j = map(int, input().split())
-        i = j
-        j = i
-    print(basket_list)    
+        basket_list[i-1], basket_list[j-1] = basket_list[j-1], basket_list[i-1]
+    result = list(map(str, basket_list))
+    print(' '.join(result))
+     
 basket_game()
