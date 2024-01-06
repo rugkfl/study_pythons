@@ -31,4 +31,5 @@ def basket_change():
         basket_list.reverse()
         print(basket_list)
     return
+
 basket_change()
