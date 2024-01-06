@@ -11,3 +11,14 @@
 # 출력
 # 출력은 2줄이다. 1번째 줄엔 제출하지 않은 학생의 출석번호 중 가장 작은 것을 출력하고, 2번째 줄에선 그 다음 출석번호를 출력한다.
 
+def roll_book():
+    check_list = []  # 과제 낸 사람들의 리스트
+    for j in range(28):
+        n = int(input()) # 과제 낸 사람들의 출석번호 입력
+        check_list.append(n) # 과제 낸 사람들의 출석번호를 리스트에 추가
+
+    for x in range(1, 31): # 출석번호 1번~30번까지의 범위를 설정하고 반복
+        if x not in check_list: # 과제 낸 사람들의 리스트 안에 포함되어 있지 않은 번호가 x에 있다면 그 없는 번호를 출력
+            print(x)
+
+roll_book()
