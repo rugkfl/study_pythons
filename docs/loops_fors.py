@@ -65,3 +65,5 @@ for num_count in [0,2,4]:
 
 print("선호 답항 : {}".format(list_statistics))
 print("End Program!")
+
+
