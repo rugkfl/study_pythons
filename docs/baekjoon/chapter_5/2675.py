@@ -10,9 +10,12 @@
 # 각 테스트 케이스에 대해 P를 출력한다.
 
 T = int(input())
-for i in range(T) :
-    R, S = input().split()
-    for j in range(len(S)) :
-        P = S[j] * int(R)
-        print(P, end='')
-    print() # 줄바꿈하여 입력할 수 있기 위한 코드
+def solution(T) :
+    for i in range(T) :
+        R, S = input().split()
+        for j in range(len(S)) :
+            P = S[j] * int(R)
+            print(P, end='')
+        print() # 줄바꿈하여 입력할 수 있기 위한 코드
+    return 
+solution(T)
