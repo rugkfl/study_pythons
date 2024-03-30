@@ -68,3 +68,5 @@ def solution(str_alp) :
     answer = sum(num_list)
     return answer
 print(solution(str_alp))
+
+# .index() 활용해서 다시 풀어보기  => 리스트의 값이 몇번째의 인덱스인지 확인할 수 있음
