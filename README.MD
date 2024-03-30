@@ -127,6 +127,34 @@
 |출력|[py](./docs/baekjoon/chapter_6/10988.py)|첫째 줄에 팰린드롬이면 1, 아니면 0을 출력한다.|[백준 10988](https://www.acmicpc.net/problem/10988)|
 </details>
 
+### :pushpin: Programmers 코딩 테스트(python) :pushpin:
+#### 입문
+
+<details open>
+  <summary> :eyes: 이곳을 클릭하세요</summary>
+  <p>추가적인 정보가 여기에 표시됩니다.</p>
+
+
+|구분|소스|문제설명| 출처|
+|--|--|--|--|
+|문제|[py](./docs/coding_test_programmers/120803)|정수 num1과 num2가 주어질 때, num1에서 num2를 뺀 값을 return하도록 soltuion 함수를 완성|[프로그래머스 120803](https://school.programmers.co.kr/learn/courses/30/lessons/120803)|
+|문제|[py](./docs/coding_test_programmers/120804)|정수 num1, num2가 매개변수 주어집니다. num1과 num2를 곱한 값을 return 하도록 solution 함수를 완성|[프로그래머스 120804](https://school.programmers.co.kr/learn/courses/30/lessons/120804)|
+|문제|[py](./docs/coding_test_programmers/120810)|정수 num1, num2가 매개변수로 주어질 때, num1를 num2로 나눈 나머지를 return 하도록 solution 함수를 완성|[프로그래머스 120810](https://school.programmers.co.kr/learn/courses/30/lessons/120810)|
+|문제|[py](./docs/coding_test_programmers/120805)|정수 num1, num2가 매개변수로 주어질 때, num1을 num2로 나눈 몫을 return 하도록 solution 함수를 완성|[프로그래머스 120805](https://school.programmers.co.kr/learn/courses/30/lessons/120805)|
+|문제|[py](./docs/coding_test_programmers/120807)|정수 num1과 num2가 매개변수로 주어집니다. 두 수가 같으면 1 다르면 -1을 retrun하도록 solution 함수를 완성|[프로그래머스 120807](https://school.programmers.co.kr/learn/courses/30/lessons/120807)|
+|문제|[py](./docs/coding_test_programmers/120802)|정수 num1과 num2가 주어질 때, num1과 num2의 합을 return하도록 soltuion 함수를 완성|[프로그래머스 120802](https://school.programmers.co.kr/learn/courses/30/lessons/120802)|
+|문제|[py](./docs/coding_test_programmers/120806)|정수 num1과 num2가 매개변수로 주어질 때, num1을 num2로 나눈 값에 1,000을 곱한 후 정수 부분을 return 하도록 soltuion 함수를 완성|[프로그래머스 120806](https://school.programmers.co.kr/learn/courses/30/lessons/120806)|
+|문제|[py](./docs/coding_test_programmers/120829)|각에서 0도 초과 90도 미만은 예각, 90도는 직각, 90도 초과 180도 미만은 둔각 180도는 평각으로 분류합니다. 각 angle이 매개변수로 주어질 때 예각일 때 1, 직각일 때 2, 둔각일 때 3, 평각일 때 4를 return하도록 solution 함수를 완성|[프로그래머스 120829](https://school.programmers.co.kr/learn/courses/30/lessons/120829)|
+
+
+|문제|[py](./docs/coding_test_programmers/120820)|2022년 기준 선생님의 나이 age가 주어질 때, 선생님의 출생 연도를 return 하는 solution 함수를 완성|[프로그래머스 120820](https://school.programmers.co.kr/learn/courses/30/lessons/120820)|
+|문제|[py](./docs/coding_test_programmers/120820)|Hello World!를 출력|[프로그래머스 120820](https://school.programmers.co.kr/learn/courses/30/lessons/120820)|
+
+
+</details>
+
+
+
 ### 코드 블럭
 ```
 ~$ python ./solving_problems_functions.py
